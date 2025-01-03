@@ -1,0 +1,3 @@
+/home/uli/intel_sense/build/CMakeFiles/launch.dir
+/home/uli/intel_sense/build/CMakeFiles/edit_cache.dir
+/home/uli/intel_sense/build/CMakeFiles/rebuild_cache.dir
