@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "intel_pub = intel_camera.intel_pub:main" 
+            "intel_pub = intel_camera.intel_pub:main",
+            "intel_sub = intel_camera.intel_sub:main"
         ],
     },
 )
