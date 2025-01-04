@@ -1,0 +1,3 @@
+[console_scripts]
+intel_pub = intel_camera.intel_pub:main
+

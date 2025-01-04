@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/intel_camera/intel_camera.egg-info/PKG-INFO
+../../build/intel_camera/intel_camera.egg-info/SOURCES.txt
+../../build/intel_camera/intel_camera.egg-info/dependency_links.txt
+../../build/intel_camera/intel_camera.egg-info/entry_points.txt
+../../build/intel_camera/intel_camera.egg-info/requires.txt
+../../build/intel_camera/intel_camera.egg-info/top_level.txt
+../../build/intel_camera/intel_camera.egg-info/zip-safe
+intel_camera/__init__.py
+intel_camera/intel_pub.py
+intel_camera/intel_sub.py
+resource/intel_camera
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

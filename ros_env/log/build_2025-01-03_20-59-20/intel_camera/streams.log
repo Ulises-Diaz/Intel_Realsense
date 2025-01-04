@@ -1,0 +1,17 @@
+[0.691s] Invoking command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build --no-deps symlink_data
+[0.958s] running develop
+[1.157s] running egg_info
+[1.157s] writing intel_camera.egg-info/PKG-INFO
+[1.157s] writing dependency_links to intel_camera.egg-info/dependency_links.txt
+[1.157s] writing entry points to intel_camera.egg-info/entry_points.txt
+[1.157s] writing requirements to intel_camera.egg-info/requires.txt
+[1.158s] writing top-level names to intel_camera.egg-info/top_level.txt
+[1.159s] reading manifest file 'intel_camera.egg-info/SOURCES.txt'
+[1.160s] writing manifest file 'intel_camera.egg-info/SOURCES.txt'
+[1.200s] running build_ext
+[1.201s] Creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel-camera.egg-link (link to .)
+[1.201s] Installing intel_pub script to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/intel_camera
+[1.202s] 
+[1.202s] Installed /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera
+[1.202s] running symlink_data
+[1.237s] Invoked command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera' returned '0': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build --no-deps symlink_data

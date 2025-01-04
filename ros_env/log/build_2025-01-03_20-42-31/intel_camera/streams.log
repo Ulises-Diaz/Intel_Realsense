@@ -1,0 +1,40 @@
+[0.772s] Invoking command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/src/intel_camera': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intel_camera build --build-base /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build install --record /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log --single-version-externally-managed install_data
+[1.026s] running egg_info
+[1.027s] creating ../../build/intel_camera/intel_camera.egg-info
+[1.027s] writing ../../build/intel_camera/intel_camera.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/intel_camera/intel_camera.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/intel_camera/intel_camera.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/intel_camera/intel_camera.egg-info/requires.txt
+[1.028s] writing top-level names to ../../build/intel_camera/intel_camera.egg-info/top_level.txt
+[1.028s] writing manifest file '../../build/intel_camera/intel_camera.egg-info/SOURCES.txt'
+[1.030s] reading manifest file '../../build/intel_camera/intel_camera.egg-info/SOURCES.txt'
+[1.030s] writing manifest file '../../build/intel_camera/intel_camera.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.030s] running build_py
+[1.030s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build
+[1.031s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib
+[1.031s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera
+[1.031s] copying intel_camera/intel_pub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera
+[1.031s] copying intel_camera/__init__.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera
+[1.031s] copying intel_camera/intel_sub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera
+[1.031s] running install
+[1.031s] running install_lib
+[1.032s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera
+[1.032s] copying /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera/intel_pub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera
+[1.032s] copying /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera/__init__.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera
+[1.032s] copying /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera/intel_sub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera
+[1.033s] byte-compiling /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera/intel_pub.py to intel_pub.cpython-310.pyc
+[1.033s] byte-compiling /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera/__init__.py to __init__.cpython-310.pyc
+[1.033s] byte-compiling /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera/intel_sub.py to intel_sub.cpython-310.pyc
+[1.033s] running install_data
+[1.033s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/share/ament_index
+[1.033s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/share/ament_index/resource_index
+[1.034s] creating /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/share/ament_index/resource_index/packages
+[1.034s] copying resource/intel_camera -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/share/ament_index/resource_index/packages
+[1.034s] copying package.xml -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/share/intel_camera
+[1.034s] running install_egg_info
+[1.035s] Copying ../../build/intel_camera/intel_camera.egg-info to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera-0.0.0-py3.10.egg-info
+[1.036s] running install_scripts
+[1.054s] Installing intel_pub script to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/intel_camera
+[1.055s] writing list of installed files to '/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log'
+[1.077s] Invoked command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/src/intel_camera' returned '0': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intel_camera build --build-base /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build install --record /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log --single-version-externally-managed install_data
