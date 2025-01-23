@@ -1,1 +1,4 @@
+cv_bridge
+pyrealsense2
+sensor_msgs_py
 setuptools

@@ -1,0 +1,46 @@
+[0.718s] Invoking command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/src/intel_camera': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intel_camera build --build-base /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build install --record /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log --single-version-externally-managed install_data
+[0.802s] Traceback (most recent call last):
+[0.802s]   File "/home/uli/Desktop/tec/personal/intel_sense/ros_env/src/intel_camera/setup.py", line 1, in <module>
+[0.802s]     from setuptools import find_packages, setup
+[0.802s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.802s]     import setuptools.version
+[0.802s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.807s]     import pkg_resources
+[0.807s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 78, in <module>
+[0.807s]     __import__('pkg_resources.extern.packaging.requirements')
+[0.807s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/requirements.py", line 56, in <module>
+[0.808s]     VERSION_PEP440 = Regex(Specifier._regex_str, re.VERBOSE | re.IGNORECASE)
+[0.808s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/pyparsing.py", line 2792, in __init__
+[0.808s]     self.re = re.compile(self.pattern, self.flags)
+[0.808s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[0.808s]     return _compile(pattern, flags)
+[0.808s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[0.808s]     p = sre_compile.compile(pattern, flags)
+[0.808s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[0.809s]     p = sre_parse.parse(p, flags)
+[0.809s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[0.809s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[0.809s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.809s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.809s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.809s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.809s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.810s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.810s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.810s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.810s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.810s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[0.810s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[0.810s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[0.810s]   File "/usr/lib/python3.10/sre_parse.py", line 548, in _parse
+[0.810s]     this = sourceget()
+[0.811s]   File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+[0.811s]     self.__next()
+[0.811s] KeyboardInterrupt
+[0.825s] Invoked command in '/home/uli/Desktop/tec/personal/intel_sense/ros_env/src/intel_camera' returned '-2': PYTHONPATH=/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/intel_camera build --build-base /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build install --record /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log --single-version-externally-managed install_data

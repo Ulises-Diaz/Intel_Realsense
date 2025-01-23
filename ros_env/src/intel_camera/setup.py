@@ -11,7 +11,12 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=[
+    'setuptools',
+    'pyrealsense2',
+    'cv_bridge',
+    'sensor_msgs_py'
+],
     zip_safe=True,
     maintainer='uli',
     maintainer_email='A00837223@tec.mx',
