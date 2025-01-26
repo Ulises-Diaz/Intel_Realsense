@@ -4,6 +4,7 @@ from sensor_msgs.msg import Image, PointCloud2
 from sensor_msgs_py.point_cloud2 import create_cloud
 from sensor_msgs_py.point_cloud2 import PointField
 from cv_bridge import CvBridge
+from std_msgs.msg import Header
 import cv2
 import pyrealsense2 as rs
 import numpy as np
@@ -110,12 +111,14 @@ class IntelPublisher(Node):
     ]
 
     # Create the header
-        #header = self.get_clock().now().to_msg()
-        #header.frame_id = "camera_frame"
+        header = Header()
+        header.stamp = self.get_clock().now().to_msg()
+        header.frame_id = "camera_frame"
+
 
     # Generate PointCloud2
-        #return create_cloud(header, fields, points)
-        return create_cloud(fields, points)
+        return create_cloud(header, fields, points) # Needs a header 
+        #return create_cloud(fields, points)
 
 
 
@@ -135,10 +138,8 @@ def main(args=None):
     except KeyboardInterrupt:
         intel_publisher.get_logger().info("Node interrupted by user.")
     finally:
-        if intel_publisher:
-            intel_publisher.destroy_node()
+        intel_publisher.destroy_node()
         rclpy.shutdown()
- 
 
 if __name__ == "__main__":
     main()
