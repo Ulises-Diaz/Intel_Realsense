@@ -70,7 +70,7 @@ class IntelPublisher(Node):
                 
                 # Aplicar background removal
                 bg_removed = self.background_removal(color_image, depth_image)
-                self.intel_publisher_bg_removed.publish(self.br_rgb.cv2_to_imgmsg(bg_removed, encoding= 'rgb8'))
+                self.intel_publisher_bg_removed.publish(self.br_rgb.cv2_to_imgmsg(bg_removed, encoding='rgb8'))
                 
                 self.get_logger().info(f"Publishing RGB frame. Procesado en {time.time() - start_time:.3f} segundos")
         except Exception as e:
@@ -84,7 +84,10 @@ class IntelPublisher(Node):
         # Aplicar background removal
         bg_removed = np.where((depth_image_3d > self.clipping_distance) | (depth_image_3d <= 0), grey_color, color_image)
         
-        return bg_removed.astype(np.uint8)
+        # Convertir a de BGR a RGB
+        bg_removed_rgb = cv2.cvtColor(bg_removed.astype(np.uint8), cv2.COLOR_BGR2RGB)
+        
+        return bg_removed_rgb
 
     def destroy_node(self):
         """Detiene el pipeline al cerrar el nodo."""
