@@ -4,6 +4,7 @@ from sensor_msgs.msg import Image, PointCloud2
 from sensor_msgs_py.point_cloud2 import create_cloud
 from sensor_msgs_py.point_cloud2 import PointField
 from cv_bridge import CvBridge
+from std_msgs.msg import Header
 import cv2
 import pyrealsense2 as rs
 import numpy as np
@@ -123,7 +124,7 @@ class IntelPublisher(Node):
             return None
 
         # Crear el mensaje PointCloud2
-        header = header()
+        header = Header()
         header.stamp = self.get_clock().now().to_msg()
         header.frame_id = "camera frame"
 

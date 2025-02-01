@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/intel_camera/intel_camera.egg-info/PKG-INFO
+writing dependency_links to ../../build/intel_camera/intel_camera.egg-info/dependency_links.txt
+writing entry points to ../../build/intel_camera/intel_camera.egg-info/entry_points.txt
+writing requirements to ../../build/intel_camera/intel_camera.egg-info/requires.txt
+writing top-level names to ../../build/intel_camera/intel_camera.egg-info/top_level.txt
+reading manifest file '../../build/intel_camera/intel_camera.egg-info/SOURCES.txt'
+writing manifest file '../../build/intel_camera/intel_camera.egg-info/SOURCES.txt'
+running build
+running build_py
+copying intel_camera/intel_pub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera
+running install
+running install_lib
+copying /home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/build/lib/intel_camera/intel_pub.py -> /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera
+byte-compiling /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera/intel_pub.py to intel_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/intel_camera/intel_camera.egg-info to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/python3.10/site-packages/intel_camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing intel_pub script to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/intel_camera
+Installing intel_sub script to /home/uli/Desktop/tec/personal/intel_sense/ros_env/install/intel_camera/lib/intel_camera
+writing list of installed files to '/home/uli/Desktop/tec/personal/intel_sense/ros_env/build/intel_camera/install.log'
